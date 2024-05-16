@@ -13,3 +13,6 @@ student_age = st.slider("Select the student's age:", 1, 100)
 if st.button("Display Information"):
     st.write(f"Student's name: {student_name}")
     st.write(f"Student's age: {student_age}")
+
+
+st.code('for i in range(8): foo()')
